@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeLine Track – Your Health, One Place</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="sidebar__head">
+        <a href="/" class="logo">
+          <span class="logo__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="logo__text">LifeLine Track</span>
+        </a>
+      </div>
+      <nav class="sidebar__nav">
+        <ul class="sidebar__list">
+          <li><a href="#dashboard" class="sidebar__link sidebar__link--active">
+            <span class="sidebar__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg></span>
+            <span class="sidebar__label">Dashboard</span>
+          </a></li>
+          <li><a href="#features" class="sidebar__link">
+            <span class="sidebar__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+            <span class="sidebar__label">Vitals</span>
+          </a></li>
+          <li><a href="#how-it-works" class="sidebar__link">
+            <span class="sidebar__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></span>
+            <span class="sidebar__label">Devices</span>
+          </a></li>
+          <li><a href="#pricing" class="sidebar__link">
+            <span class="sidebar__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></span>
+            <span class="sidebar__label">Pricing</span>
+          </a></li>
+          <li><a href="#contact" class="sidebar__link">
+            <span class="sidebar__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
+            <span class="sidebar__label">Settings</span>
+          </a></li>
+        </ul>
+      </nav>
+      <div class="sidebar__foot">
+        <a href="#help" class="sidebar__link">
+          <span class="sidebar__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>
+          <span class="sidebar__label">Help</span>
+        </a>
+      </div>
+    </aside>
+
+    <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
+
+    <!-- Main content -->
+    <div class="main-wrap">
+      <header class="topbar">
+        <button type="button" class="menu-toggle" aria-label="Open menu" id="menuToggle">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="topbar__actions">
+          <a href="#login" class="btn btn--ghost">Log in</a>
+          <a href="#signup" class="btn btn--primary">Get started</a>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <section class="hero" id="dashboard">
+          <div class="hero__grid">
+            <div class="hero__content">
+              <p class="hero__badge">Track. Understand. Thrive.</p>
+              <h1 class="hero__title">
+                Your health data, <br />
+                <span class="hero__title-accent">one lifeline.</span>
+              </h1>
+              <p class="hero__subtitle">
+                LifeLine Track brings your vitals, habits, and goals into one simple dashboard.
+                Make better decisions with clarity, not clutter.
+              </p>
+              <div class="hero__cta">
+                <a href="#signup" class="btn btn--primary btn--lg">Start free trial</a>
+                <a href="#demo" class="btn btn--outline btn--lg">Watch demo</a>
+              </div>
+            </div>
+            <div class="hero__visual">
+              <div class="card hero__card hero__card--1">
+                <span class="hero__card-label">Heart rate</span>
+                <span class="hero__card-value">72 bpm</span>
+              </div>
+              <div class="card hero__card hero__card--2">
+                <span class="hero__card-label">Sleep</span>
+                <span class="hero__card-value">7h 24m</span>
+              </div>
+              <div class="card hero__card hero__card--3">
+                <span class="hero__card-label">Steps today</span>
+                <span class="hero__card-value">8,432</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="section features">
+          <p class="section__badge">Features</p>
+          <h2 class="section__title">Everything you need to own your health</h2>
+          <p class="section__subtitle">One app. All your metrics. No more switching between screens.</p>
+          <ul class="features__grid">
+            <li class="card feature-card">
+              <div class="feature-card__icon">📊</div>
+              <h3 class="feature-card__title">Unified dashboard</h3>
+              <p class="feature-card__text">See vitals, activity, sleep, and nutrition in one view. Customize widgets to what matters most.</p>
+            </li>
+            <li class="card feature-card">
+              <div class="feature-card__icon">🔗</div>
+              <h3 class="feature-card__title">Connect any device</h3>
+              <p class="feature-card__text">Wearables, scales, apps—we sync with the tools you already use so your data stays current.</p>
+            </li>
+            <li class="card feature-card">
+              <div class="feature-card__icon">🎯</div>
+              <h3 class="feature-card__title">Smart goals</h3>
+              <p class="feature-card__text">Set targets and get gentle nudges. We help you build habits that stick, not overwhelm.</p>
+            </li>
+          </ul>
+        </section>
+
+        <section id="how-it-works" class="section how">
+          <div class="how__grid">
+            <div class="how__visual">
+              <div class="card how__mock"></div>
+            </div>
+            <div class="how__content">
+              <p class="section__badge">How it works</p>
+              <h2 class="section__title">Three steps to clarity</h2>
+              <ol class="how__steps">
+                <li class="how__step">
+                  <span class="how__step-num">1</span>
+                  <div>
+                    <h3>Connect your devices</h3>
+                    <p>Link your watch, scale, or favorite health app in under a minute.</p>
+                  </div>
+                </li>
+                <li class="how__step">
+                  <span class="how__step-num">2</span>
+                  <div>
+                    <h3>We unify your data</h3>
+                    <p>LifeLine Track pulls everything into one timeline and dashboard.</p>
+                  </div>
+                </li>
+                <li class="how__step">
+                  <span class="how__step-num">3</span>
+                  <div>
+                    <h3>Act on insights</h3>
+                    <p>See trends, set goals, and make decisions with one source of truth.</p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing" class="section pricing">
+          <p class="section__badge">Pricing</p>
+          <h2 class="section__title">Simple plans for every stage</h2>
+          <div class="pricing__cards">
+            <article class="card pricing-card">
+              <h3 class="pricing-card__name">Free</h3>
+              <p class="pricing-card__desc">Get started with the basics</p>
+              <p class="pricing-card__price"><span class="pricing-card__amount">$0</span>/month</p>
+              <ul class="pricing-card__list">
+                <li>Up to 3 connected devices</li>
+                <li>7-day history</li>
+                <li>Basic dashboard</li>
+              </ul>
+              <a href="#signup" class="btn btn--outline btn--block">Get free</a>
+            </article>
+            <article class="card pricing-card pricing-card--featured">
+              <span class="pricing-card__tag">Most popular</span>
+              <h3 class="pricing-card__name">Pro</h3>
+              <p class="pricing-card__desc">For serious trackers</p>
+              <p class="pricing-card__price"><span class="pricing-card__amount">$9</span>/month</p>
+              <ul class="pricing-card__list">
+                <li>Unlimited devices</li>
+                <li>1-year history</li>
+                <li>Goals & insights</li>
+                <li>Export data</li>
+              </ul>
+              <a href="#signup" class="btn btn--primary btn--block">Start Pro trial</a>
+            </article>
+            <article class="card pricing-card">
+              <h3 class="pricing-card__name">Team</h3>
+              <p class="pricing-card__desc">For clinics & coaches</p>
+              <p class="pricing-card__price"><span class="pricing-card__amount">$29</span>/month</p>
+              <ul class="pricing-card__list">
+                <li>Everything in Pro</li>
+                <li>Multi-user & sharing</li>
+                <li>API access</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="#contact" class="btn btn--outline btn--block">Contact sales</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section cta">
+          <div class="cta__inner">
+            <h2 class="cta__title">Ready to simplify your health tracking?</h2>
+            <p class="cta__subtitle">Join thousands who use LifeLine Track every day. No credit card required.</p>
+            <form class="cta__form" action="#" method="get">
+              <input type="email" name="email" placeholder="Enter your email" required class="cta__input" />
+              <button type="submit" class="btn btn--primary btn--lg">Get started</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer">
+        <div class="footer__inner">
+          <div class="footer__brand">
+            <a href="/" class="logo">
+              <span class="logo__icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span class="logo__text">LifeLine Track</span>
+            </a>
+            <p class="footer__tagline">Your health, one lifeline.</p>
+          </div>
+          <div class="footer__links">
+            <div class="footer__col">
+              <h4>Product</h4>
+              <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#integrations">Integrations</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#terms">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 LifeLine Track. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
